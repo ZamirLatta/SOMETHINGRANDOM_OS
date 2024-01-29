@@ -7,5 +7,5 @@ main:
 .halt:
     jmp .halt
 
-times 510-($-$$) db 0
-dw 0AA55h
+times 510-($-$$) db 0 ; data byte
+dw 0AA55h ; define word
